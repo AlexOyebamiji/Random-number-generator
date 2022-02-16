@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #a1c3ff;
+}
+
+.main {
+  margin-top: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-size: 50px;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  background: #a1c3ff;
+  color: #000;
+  border-style: solid;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  width: 14rem;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  border: none;
+  background: blue;
+}
