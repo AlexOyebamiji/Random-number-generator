@@ -12,16 +12,15 @@ body {
   background: #a1c3ff;
 }
 
-.main {
-  margin-top: 20%;
-}
-
-.container {
+section {
+  height: 100vh;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
-.text {
+.container1 {
   font-size: 50px;
 }
 
